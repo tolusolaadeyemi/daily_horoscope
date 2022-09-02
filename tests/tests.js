@@ -1,6 +1,5 @@
-const Horoscope = require('../lib/Horoscope');
-//error-handling, try-catch, type validation, edge-cases(language, length, spaces)
 
+const Horoscope = require('../lib/Horoscope');
 
 console.log(Horoscope.getHoroscope({ day: 30, month: 3 })); 
 
