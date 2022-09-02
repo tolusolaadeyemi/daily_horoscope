@@ -1,0 +1,20 @@
+{
+  "name": "horoscope_api",
+  "version": "1.0.0",
+  "description": "api that returns a daily horoscope based on the user's birthday",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tolu sola-adeyemi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "joi": "^17.6.0",
+    "zodiac-signs": "^1.1.0"
+  }
+}
